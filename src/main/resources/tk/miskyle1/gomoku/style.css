@@ -1,0 +1,12 @@
+.test-class {
+    -fx-border-color: black;
+    -fx-background-radius: 10px;
+}
+
+.game-pane-background {
+    -fx-background-color: rgb(150, 120, 100);
+}
+
+.game-pane {
+    -fx-border-color: black;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tk.miskyle1.gomoku.GomokuController" stylesheets="@style.css" styleClass="game-pane-background">
+   <children>
+     <MenuBar maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0"
+              prefWidth="530.0">
+       <Menu mnemonicParsing="false" text="联机">
+         <MenuItem mnemonicParsing="false" onAction="#createRoom" text="创建房间"/>
+         <MenuItem mnemonicParsing="false" onAction="#joinRoom" text="加入房间"/>
+         <MenuItem mnemonicParsing="false" onAction="#showRoomId" text="查看房间号"/>
+       </Menu>
+       <Menu mnemonicParsing="false" text="帮助">
+         <MenuItem mnemonicParsing="false" onAction="#showAbout" text="关于"/>
+       </Menu>
+     </MenuBar>
+      <GridPane fx:id="gamePane" layoutY="32.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="525.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+          <ColumnConstraints hgrow="NEVER" minWidth="35" prefWidth="35" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+          <RowConstraints minHeight="35" prefHeight="35" vgrow="NEVER" />
+        </rowConstraints>
+      </GridPane>
+   </children>
+</AnchorPane>
